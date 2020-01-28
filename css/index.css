@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(../img/space.jpg);
+    background-size: cover;
+}
+
+.earth {
+    width: 400px;
+    position: relative;
+    top: 200px;
+    left: 600px;
+}
+
+.moon {
+    width: 100px;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    animation: linear 5s galaxy infinite;
+}
+
+@keyframes galaxy {
+    0%{
+        top: 440px;
+        left: 490px;
+    }
+    10% {
+        top: 470px;
+        left: 570px;
+    }
+    20%{
+        top: 500px;
+        left: 670px;
+    }
+    30%{
+        top: 510px;
+        left: 710px;
+    }
+    35% {
+        top: 510px;
+        left: 750px;
+    }
+    40%{
+        top: 500px;
+        left: 780px;
+    }
+    45% {
+        top: 490px;
+        left: 830px;
+    }
+    50% {
+        top: 400px;
+        left: 1020px;
+    }
+    55% {
+        top: 370px;
+        left: 1020px;
+    }
+    60% {
+        top: 345px;
+        left: 980px;
+    }
+    65% {
+        top: 320px;
+        left: 920px;
+    }
+    70%{
+        top: 320px;
+        left: 820px;
+    }
+    90% {
+        top: 400px;
+        left: 490px;
+    }
+}
